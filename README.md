@@ -26,19 +26,23 @@ git clone https://github.com/YOUR_USERNAME/fake-news-detection.git
 cd fake-news-detection
 ```
 
-2. Install required packages:
+2. Download the required model files:
+   - Download `fake_news_model.joblib` and `feature_extractor.joblib` from [Google Drive](YOUR_DRIVE_LINK)
+   - Place these files in the root directory of the project
+
+3. Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
-
-1. Train the model:
+4. Download NLTK data:
 ```bash
-python detection.py
+python download_nltk.py
 ```
 
-2. Analyze news articles:
+## Usage
+
+1. Analyze news articles:
 ```bash
 python predict_news.py
 ```
@@ -46,6 +50,14 @@ python predict_news.py
 You can then:
 - Enter a news title and text manually
 - Provide a URL to analyze an online article
+
+## Model Files
+
+The system requires two model files to function:
+- `fake_news_model.joblib`: The trained classification model
+- `feature_extractor.joblib`: The feature extraction pipeline
+
+These files are not included in the repository due to their size. You can download them from [Google Drive](YOUR_DRIVE_LINK).
 
 ## Model Features
 
