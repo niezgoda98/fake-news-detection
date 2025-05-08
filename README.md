@@ -22,7 +22,7 @@ An advanced fake news detection system that uses multiple text analysis features
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/fake-news-detection.git
+git clone https://github.com/niezgoda98/fake-news-detection.git
 cd fake-news-detection
 ```
 
